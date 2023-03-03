@@ -13,4 +13,7 @@
 
     <string name="DisplayList">Display List</string>
     <string name="AddMaterials">Add Materials</string>
+    <string name="Title">Title</string>
+    <string name="Address">Address</string>
+
 </resources>
