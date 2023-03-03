@@ -4,6 +4,7 @@ public class AdModel {
     private String title;
     private String address;
     private int image;
+
     // Constructor
     public AdModel(String title, int address, int image) {
         this.title = title;
@@ -19,5 +20,18 @@ public class AdModel {
         this.title = title;
     }
 
+    public String getAddress() {
+        return address;
+    }
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public int getImage() {
+        return image;
+    }
+    public void setImage(int image) {
+        this.image = image;
+    }
 
 }
