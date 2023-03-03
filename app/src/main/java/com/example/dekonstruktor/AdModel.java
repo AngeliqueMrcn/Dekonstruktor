@@ -6,7 +6,7 @@ public class AdModel {
     private int image;
 
     // Constructor
-    public AdModel(String title, int address, int image) {
+    public AdModel(String title, String address, int image) {
         this.title = title;
         this.address = String.valueOf(address);
         this.image = image;
